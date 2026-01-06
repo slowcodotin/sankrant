@@ -131,7 +131,8 @@ fig.update_layout(
     yaxis=dict(
         tickmode='array',
         tickvals=[-20, -10, 1, 14, 32, 60, 91, 121, 152],
-        ticktext=['Dec 11', 'Dec 21 (Winter Solstice)', 'Jan 01', 'Jan 14', 'Feb 01', 'Mar 01', 'Apr 01', 'May 01', 'Jun 01']
+        ticktext=['Dec 11', 'Dec 21 (Winter Solstice)', 'Jan 01', 'Jan 14', 'Feb 01', 'Mar 01', 'Apr 01', 'May 01', 'Jun 01'],
+        autorange=True
     )
 )
 
